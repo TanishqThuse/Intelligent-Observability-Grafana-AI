@@ -99,5 +99,5 @@ Once the containers are successfully running, the following portals are availabl
 
 ## 📜 Credits & Provenance
 
-- **EDI Project Team:** Built by [Your Name/Team] for Vishwakarma Institute of Technology (VIT) - Spring 2026.
+- **EDI Project:** Built by [Tanishq Thuse](https://www.linkedin.com/in/tanishq-thuse-32472b248/) for Vishwakarma Institute of Technology (VIT) - Spring 2026.
 - **Infrastructure Baseline:** The core microservice tracking, node-exporter, Prometheus, and Grafana wiring was originally inspired by / adapted from the `grafana/promql-anomaly-detection` repository. All advanced machine learning engines, dynamic thresholding, data pipelining, API backend, and the interactive anomaly dashboard have been uniquely architected and implemented specifically for this project.
