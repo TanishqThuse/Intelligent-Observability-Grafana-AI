@@ -1,0 +1,17 @@
+# Additional recording rules for the demo dashboard. These are not required for the framework to operate.
+
+groups:
+  - name: AnomalyExtraDemoRules
+    rules:
+
+      - record: anomaly:adaptive:stddev_26h
+        expr: |-
+          stddev_over_time(anomaly:adaptive:select[26h])
+
+      - record: anomaly:adaptive:stddev_1h
+        expr: |-
+          stddev_over_time(anomaly:adaptive:select[1h])
+
+      - record: anomaly:adaptive:stddev_1h:avg_26h
+        expr: |-
+          avg_over_time(anomaly:adaptive:stddev_1h[26h])
